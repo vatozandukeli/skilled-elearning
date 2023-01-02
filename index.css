@@ -11,7 +11,6 @@ body {
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
-
 p {
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -109,17 +108,18 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px; 
 }
 
 #container5 {
+    width: 100%;
     aspect-ratio: calc(343 / 120); 
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 10px;
-    margin-left: 16px;
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    margin-right: 16px;
 }
 
 #courses {
@@ -134,12 +134,11 @@ p {
 
 .card {
     aspect-ratio: calc(343 / 259); 
+    width: 100%;
     background: #FFFFFF;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 16px;
-    margin-right: 16px; 
     padding-left: 28px;
     padding-top: 56px;
     padding-right: 29px;
@@ -186,11 +185,9 @@ h5 {
     font-size: 18px;
     line-height: 28px;
     color: #F74780;
-    
 }
 
 #container7 {
-    
     aspect-ratio: calc(375 / 120);
     background: #13183F;
     display: flex;
